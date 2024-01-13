@@ -11,17 +11,15 @@ int main(int argc, char **argv)
 {
 	int product, value1, value2;
 
-	value1 = atoi(argv[1]);
-	value2 = atoi(argv[2]);
 	if (argc != 3)
 	{
 		printf("Error\n");
 		return (1);
 	}
-	else
-	{
-		product = value1 * value2;
-		printf("%d\n", product);
-	}
+	value1 = atoi(argv[1]);
+	value2 = atoi(argv[2]);
+
+	product = value1 * value2;
+	printf("%d\n", product);
 	return (0);
 }
