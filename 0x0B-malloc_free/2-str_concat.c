@@ -10,8 +10,7 @@ char *str_concat(char *s1, char *s2)
 	unsigned int tlength, length1, length2, i, j;
 	char *con;
 
-	length1 = 0;
-	length2 = 0;
+	length1 = 0, length2 = 0;
 	if (s1 == NULL)
 	{
 		s1 = "";
@@ -34,13 +33,12 @@ char *str_concat(char *s1, char *s2)
 	{
 		return (NULL);
 	}
-	i = 0;
+	i = 0, j = 0;
 	while (i < length1)
 	{
 		con[i] = s1[i];
 		i++;
 	}
-	j = 0;
 	while (i < tlength)
 	{
 		con[i] = s2[j];
