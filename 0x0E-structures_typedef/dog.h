@@ -1,5 +1,5 @@
-#ifndef HEADER_H
-#define HEADER_H
+#ifndef DOG_H
+#define DOG_H
 
 /**
  *struct dog - structure dog
@@ -14,4 +14,6 @@ struct dog
 	char *owner;
 };
 
-#endif
+void init_dog(struct dog *d, char *name, float age, char *owner);
+
+#endif /* DOG_H */
