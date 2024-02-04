@@ -3,7 +3,7 @@
 /**
  *print_list - prints the contents of a linked list
  *@h: start of the linked list
- @Return: returns
+ *Return: returns
  */
 size_t print_list(const list_t *h)
 {
